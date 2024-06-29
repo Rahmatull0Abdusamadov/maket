@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.nav1{
+    
+    height: 40px;
+    background-color: white;
+    display: none;
+}
+  
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    align-items: center;
+    background-color: rgba(225, 237, 230, 1);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.menu{
+    display: none;
+}
+.text{
+    display: flex;
+    width:40%;
+    justify-content: space-between;
+    font-size: 13px;
+
+}
+.main{
+    display: flex;
+   margin-left: 200px;
+}
+.img1 img{
+    width: 500px;
+  
+}
+ .text2{
+    /* width: 100%; */
+    padding-top: 170px;  
+    padding-left: 150px;
+ }
+
+ .p1{
+    line-height: 45px;
+    font-weight: 100;
+    font-size: 40px;
+ }
+  .p2{
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgba(128, 128, 128, 0.705);
+  }
+   .btn1{
+    margin-top: 20px;
+    width: 180px;
+    height: 40px;
+    background-color: transparent;
+    color:  rgb(170, 197, 182);
+    border: 2px solid  rgb(170, 197, 182);
+   }
+   .s1{
+    color:rgb(127, 161, 142) ;
+   }
+
+   .main2{
+    display: flex;
+   
+    
+   }
+   .text3 h1{
+    margin-left: 200px;
+    margin-top: 40px;
+    font-weight: 100;
+   }
+     .btn{
+      margin-left: 320px;
+      margin-top: 30px;
+    
+     }
+        
+     
+         .btn3{
+         width: 140px;
+        height: 40px;
+        border-radius: 20px;
+       margin: 0px 20px;
+       background-color:  rgba(170, 197, 182, 0.56);
+       border: none;
+     }
+     .btn2{
+         width: 140px;
+        height: 40px;
+        border-radius: 20px;
+       margin: 0px 20px;
+       background-color:  rgb(71, 99, 83);
+       border: none;
+       color: white;
+     }
+ 
+     .div{
+        background-color: rgba(216, 231, 223, 0.56);
+        width: 280px;
+        height: 600px;
+        margin-top: 30px;
+         margin: 0px 40px;
+     }
+     .div img{
+        width: 250px;
+        margin: 20px 10px;
+        margin-left: 15px;
+        
+     }
+     .p3{
+        margin-left: 12px;
+        color: gray;
+        margin-top: -10px;
+     }
+     .div h1{
+     
+        font-weight: 100;
+        font-size: 30px;
+        margin-left: 8px;
+        margin-top: 5px;
+     }
+   .p4{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+   }
+   .p5{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 24px;
+    color:rgba(75, 110, 90, 0.968);
+   }
+  .btn5{
+    width: 240px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid rgba(75, 110, 90, 0.968);
+    color: rgba(75, 110, 90, 0.968);
+    font-size: 16px;
+  }
+
+  .box{
+    display: flex;
+     justify-content: center;
+     margin-top: 30px;
+   
+  }
+
+  .main3 {
+    background-image: url(/imeges/pic_background\ \(1\).png);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    margin-top: 100px;
+  } .main3 h1{
+    color: white;
+    font-weight: 100;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 40px;
+  }
+  .main3 p{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+  margin-left: 200px;
+   
+  }
+  .img7{
+    position: relative;
+    top: 140px;
+    margin-left: 220px;
+  }
+  .main3 button{
+    width: 200px;
+    height: 50px;
+    border: navajowhite;
+   font-size: 17px;
+    background-color: rgba(238, 219, 109, 1);
+    margin-left: 200px;
+    margin-top: 60px;
+  }
+  .n1{
+    display: none;
+  }
+  .nain{
+    display: flex;
+  }
+     .div2 img{
+        margin-left: 200px;
+        margin-top: 20px;
+     }
+     .div3{
+        margin-top: 200px;
+        margin-left: 50px;
+     }
+     .r1{
+        font-weight: 100;
+        margin-bottom: 10px;
+
+     }
+     .r2{
+        line-height: 25px;
+        font-size: 15px;
+        margin-bottom: 20px;
+     }
+     .div3 img{
+        width: 200px;
+     }
+     .m1{
+        display: none;
+     }
+
+     .footer{
+        justify-content: space-around;
+        display: flex;
+        width: 100%;
+        height: 130px;
+        background-color: rgba(225, 237, 230, 1);
+        align-items: center;
+        margin-top: 50px;
+     }
+     .pain h3{
+       font-weight: 100;
+       font-size: 15px;
+       margin-top: 20px;
+     }
+     .pain p{
+        color: rgba(134, 146, 139, 1);
+        font-size: 14px;
+        margin-top: 10px;
+     }
+     h3{
+        font-weight: 10;
+        font-size: 15px;
+     }
+     p{
+       color: rgba(134, 146, 139, 1);
+        font-size: 14px;
+        margin-top: 8px;
+     }
+
+     
+   @media(max-width:413px){
+    .nav1{
+        display: block;
+        padding: 10px 0px;  
+    }
+    .nav1 img{
+      margin-left: 150px;
+       
+    }
+    .main{
+        width: 100%;
+    }
+    .nav{
+        width: 100%;
+        padding: 10px 0px;
+    }
+     .img img{
+        display: none;
+    }
+    .text p{
+        display: none;
+    }
+    .text img{
+      margin-left: 90px;
+    }
+    .menu{
+        display: block;
+         position: relative;
+       left: -300px;
+    }
+    .img1 img{
+        display: none;
+    }
+    .text2{
+        width: 100%;
+       padding-left: 10px;
+       position: relative;
+       top: -110px;
+       left: -180px;
+    }
+    .p2{
+        margin-top: 30px;
+    }
+    .btn1{
+        margin-top: 30px;
+    }
+    .main2{
+        flex-wrap: wrap;
+        margin-top: -100px;
+    }
+    .text3{
+        margin-left: -160px;
+    }
+    .btn{
+        display: flex;
+        margin-left:20px;
+    }
+    .box{
+        flex-wrap: wrap;
+      
+    }
+    .div{
+        width: 350px;
+         height: 650px;
+        margin-top: 20px;
+    }
+     .div img{
+       margin-left: 30px;
+       width: 270px;
+      
+     }
+     .div h1{
+        margin-left: 25px;
+     }
+     .p3{
+        margin-left: 25px;
+
+     }
+     .p4{
+        margin-left: 25px;
+
+     }
+     .p5{
+        margin-left: 25px;
+
+     }
+     .btn5{
+        margin-left: 25px;
+
+     }
+     .main3 {
+    background-image: url(/imeges/pic_background\ \(1\).png);
+    width: 400px;
+    height: 600px;
+    background-size: auto;
+    margin-top: 50px;
+     }
+      .main3 h1{
+    color: white;
+    font-weight: 100;
+    margin-left: 90px;
+    margin-top: -30px;
+    font-size: 20px;
+  }
+  .main3 p{
+   
+    color: white;
+    font-size: 13px;
+   margin-left: 40px;
+   
+  }
+  .img7{
+    position: relative;
+    top: 30px;
+    margin-left: 20px;
+  }
+  .main3 button{
+    width: 300px;
+    height: 50px;
+    border: navajowhite;
+   font-size: 17px;
+    background-color: rgba(238, 219, 109, 1);
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .n1{
+    display: block;
+  }
+  .n2{
+    display: none;
+  }
+  .nain{
+    flex-wrap: wrap;
+  }
+
+  .div2 img{
+        margin-left: 5px;
+        margin-top: 30px;
+        width: 390px;
+     }
+     .div3{
+        margin-top: 50px;
+        margin-left: 50px;
+     }
+     .r1{
+        font-weight: 100;
+        margin-bottom: 10px;
+
+     }
+     .r2{
+        /* line-height: 25px; */
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: -10px;
+     }
+     .div3 img{
+        width: 200px;
+     }
+     .m1{
+        display: block;
+     }
+     .m2{
+        display: none;
+     }
+     .footer{
+        flex-wrap: wrap;
+        width: 400px;
+        height: 400px;
+        background-color: rgba(225, 237, 230, 1);
+        
+     }
+     .pain h3{
+       font-weight: 100;
+       font-size: 15px;
+       margin-top: 20px;
+     
+     }
+     .pain p{
+        color: rgba(134, 146, 139, 1);
+        font-size: 14px;
+        margin-top: 10px;
+
+     }
+     h3{
+        font-weight: 10;
+        font-size: 15px;
+     }
+     p{
+       color: rgba(134, 146, 139, 1);
+        font-size: 14px;
+        margin-top: 8px;
+     }
+
+     .pain3{
+       position: relative;
+       left: -320px;
+       top:160px;
+     }
+     .pain1{
+        margin-left: 50px;
+     }
+     .pain4{
+        margin-left: 210px;
+        /* margin-top: px; */
+     }
+     .btn4{
+    display: none;
+     }
+
+   }
